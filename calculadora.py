@@ -17,6 +17,12 @@ def main():
             num2 = float(input("Ingrese el segundo número: "))
             resultado = num1 + num2
             print(f"Resultado: {num1} + {num2} = {resultado}")
+        elif opcion == "2":
+            num1 = float(input("Ingrese el primer número: "))
+            num2 = float(input("Ingrese el segundo número: "))
+            resultado = num1 - num2
+            print(f"Resultado: {num1} - {num2} = {resultado}")
+        
         seguir = opcion != "5"
 
 if __name__ == "__main__":
